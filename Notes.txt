@@ -1,0 +1,7 @@
+Monai way of trainig:
+Portion by portion - practically takes a sliding window on the input image for the training, but it didn't really work on this project
+instead he went for cropping the unneccessary part, and use the full img
+
+Proposal:
+We leave the size as is for now, but fix the number of slices at 60
+
